@@ -8,7 +8,7 @@ import threading
 app = Flask(__name__)
 
 # Configure Gemini API
-GOOGLE_API_KEY = 'AIzaSyD_NcGNxfq1VL9JNBNi2EAOWRlxDSjicxI'  # Replace with your API key
+GOOGLE_API_KEY = ''  # Replace with your API key
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Initialize Gemini model with the correct model name
